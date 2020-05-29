@@ -1,5 +1,22 @@
 # git command
 
+## push to github 
+origin = alias of the URL
+```bash
+git remote add origin URL
+```
+push everything on the local repository to the master branch on URL
+```bash
+git push origin master
+```
+show all remote 
+```bash
+git remote -v
+```
+remove remote 
+```bash
+git remote rm gitlab
+```
 ##  git log
 **shows all the commits executed**
 ```bash
@@ -82,15 +99,6 @@ then merges feature-a into master
 git merge feature-a
 ```
 
-## push to github 
-origin = alias of the URL
-```bash
-git remote add origin URL
-```
-push everything on the local repository to the master branch on URL
-```bash
-git push origin master
-```
 
 ## clone from github to local
 ```bash
