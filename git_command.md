@@ -17,6 +17,10 @@ remove remote
 ```bash
 git remote rm gitlab
 ```
+reset remote URL
+```bash
+git remote set-url origin https://github.com/your/repository
+```
 ##  git log
 **shows all the commits executed**
 ```bash
